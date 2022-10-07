@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entity.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Entity/1.0.0": {
+      "type": "project",
+      "path": "../Entity/Entity.csproj",
+      "msbuildProject": "../Entity/Entity.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Entity >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Tunahan\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Tunahan\\source\\repos\\RentCar\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\Entity\\Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

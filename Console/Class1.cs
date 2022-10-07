@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Business.Concrete;
+using DataAccess.Concrete.InMemory;
+using Entity.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
@@ -11,7 +14,13 @@ namespace Console
     {
         public static void Main(String[] args)
         {
-            System.Console.WriteLine("okey");
+            CarManager cm = new CarManager(new InMemoryCarDal());
+
+            foreach (var car in cm.GetAll())
+            {
+                System.Console.WriteLine(car.Description);
+            }
+
         }
     }
 }

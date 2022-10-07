@@ -13,3 +13,10 @@ C:\Users\Tunahan\source\repos\RentCar\Console\obj\Debug\net6.0\refint\Console.dl
 C:\Users\Tunahan\source\repos\RentCar\Console\obj\Debug\net6.0\Console.pdb
 C:\Users\Tunahan\source\repos\RentCar\Console\obj\Debug\net6.0\Console.genruntimeconfig.cache
 C:\Users\Tunahan\source\repos\RentCar\Console\obj\Debug\net6.0\ref\Console.dll
+C:\Users\Tunahan\source\repos\RentCar\Console\bin\Debug\net6.0\Business.dll
+C:\Users\Tunahan\source\repos\RentCar\Console\bin\Debug\net6.0\DataAccess.dll
+C:\Users\Tunahan\source\repos\RentCar\Console\bin\Debug\net6.0\Entity.dll
+C:\Users\Tunahan\source\repos\RentCar\Console\bin\Debug\net6.0\Business.pdb
+C:\Users\Tunahan\source\repos\RentCar\Console\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\Tunahan\source\repos\RentCar\Console\bin\Debug\net6.0\Entity.pdb
+C:\Users\Tunahan\source\repos\RentCar\Console\obj\Debug\net6.0\Console.csproj.CopyComplete
