@@ -1,4 +1,5 @@
-﻿using Core.Entity;
+﻿using Core.DataAccess.EntityFramework;
+using Core.Entity;
 using DataAccess.Abstract;
 using Entity.Concrete;
 using Microsoft.EntityFrameworkCore;
@@ -11,37 +12,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCarDal : ICarDal
+    public class EfCarDal : EfEntityRepositoryBase<Car,RentCarContext>,ICarDal
     {
-        public void Add(Car car)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(Car car)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Car> GetAll()
-        {
-     
-                using (var context = new RentCarContext())
-                {
-                return context.Set<Car>().ToList();
-                        
-                }
-            
-        }
-
-        public Car GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(Car car)
-        {
-            throw new NotImplementedException();
-        }
+   
     }
 }
