@@ -15,13 +15,12 @@ namespace Console
     {
         public static void Main(String[] args)
         {
-            // CarManager cm = new CarManager(new EfCarDal());
+            CarManager cm = new CarManager(new EfCarDal());
             BrandManager bm = new BrandManager(new EfBrandDal());
-            foreach (var item in bm.GetAll())
+            foreach (var item in cm.GetCarDetails())
             {
-                System.Console.WriteLine(item.Name);
+                System.Console.WriteLine(item.CarName + item.BrandName + item.ColorName);
             }
-            //cm.Add(new Car { BrandId=2, ColorId=2,DailyPrice=1200.50M,Description="ff",ModelYear="1996"});
             //foreach (var car in cm.GetCarsByBrandId(2))
             //{
             //    System.Console.WriteLine(car.Description);
