@@ -9,5 +9,7 @@ namespace Business.Constants
     public class Strings
     {
         public static string okey = "Ok";
+        public static string added = "Added";
+
     }
 }
