@@ -17,7 +17,10 @@ namespace Console
         {
             CarManager cm = new CarManager(new EfCarDal());
             UserManager um = new UserManager(new EfUserDal());
+            CustomerManager cum = new CustomerManager(new EfCustomerDal());
+
             //BrandManager bm = new BrandManager(new EfBrandDal());
+            cum.Add(new Customer { CompanyName = "google" });
             System.Console.WriteLine(cm.GetCarDetails().Data.Count);
             //foreach (var item in um.GetAll().Data)
             //{
