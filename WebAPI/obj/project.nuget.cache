@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "avv9Bl4vc0VlBGfSeNfGlFucAxkP/k5IO6LpiVEnhB0OZK6HKhFqeYqejdN2LhGAWQbGviP2U0KdnacT5ecpCQ==",
+  "dgSpecHash": "kjPsHvDVobXUOd0ZhtrzGwtA2n4JV74CrmwOFm9v+m4+rFTZcqm6BdNsQ6I9VROynSDxjkU2plEfbmGfgzBm1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tunahan\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\Tunahan\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Tunahan\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.0.0\\autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
+    "C:\\Users\\Tunahan\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -39,6 +43,7 @@
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tunahan\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pmWpxqGZDhF5M3WDiv97jNvEI+paKHwnZzD1J7HtEOmHea6K1EQb+7RBhr0qTlrbd55Tse4D8BCAEoWNf3f+Ug==",
+  "dgSpecHash": "Eap4DaLtd+KhrzbDm8TuXd6oRk5jWefcZrOHLKl4J5i8KAvv1MsJktMKQQMMCvf2kfbbJXxNVVvVN7BOCnndEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\Console\\Console.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tunahan\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\Tunahan\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.0.0\\autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
+    "C:\\Users\\Tunahan\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -33,6 +36,7 @@
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tunahan\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
