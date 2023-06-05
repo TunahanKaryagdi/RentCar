@@ -3,6 +3,7 @@ using Business.Constants;
 using Core.Utilities.Results;
 using Entity.Concrete;
 using Microsoft.AspNetCore.Mvc;
+using IResult = Core.Utilities.Results.IResult;
 
 namespace WebAPI.Controllers
 {
@@ -25,6 +26,12 @@ namespace WebAPI.Controllers
             return _carService.GetAll();
         }
 
+
+        [HttpPost("add")]
+        public IResult AddCar(Car car)
+        {
+            return _carService.Add(car);
+        }
 
     }
 }
