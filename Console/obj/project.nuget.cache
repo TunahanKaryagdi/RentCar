@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "X4MzcNljOyr/y5zn7fs89vSCHSLM6fjPIO9qu9sSumWX4acBnUEmLKFzx/5ZgOhCNYuooNIDAZHApUx07Qh2eQ==",
+  "dgSpecHash": "wdjVZshsfdjIkka5vNfWo41D2UJ3RvzeEI5MJvj8M8dgCRRss1sB1qsmj+vBj0xtMpFGoK1Adk7aUApr+hqE4A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\Console\\Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tunahan\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\Tunahan\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.0.0\\autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Tunahan\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
