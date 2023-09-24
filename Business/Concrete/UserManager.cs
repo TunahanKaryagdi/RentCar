@@ -24,14 +24,14 @@ namespace Business.Concrete
         public IResult Add(User user)
         {
             _userDal.Add(user);
-            return new SuccessResult(Strings.added);
+            return new SuccessResult(Messages.added);
         }
 
 
 
         public IDataResult<List<User>> GetAll()
         {
-            return new SuccessDataResult<List<User>>(_userDal.GetAll(),Strings.okey);
+            return new SuccessDataResult<List<User>>(_userDal.GetAll(),Messages.okey);
         }
 
 

@@ -22,7 +22,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Color>> GetAll()
         {
-            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(),Strings.okey);  
+            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(),Messages.okey);  
         }
     }
 }
