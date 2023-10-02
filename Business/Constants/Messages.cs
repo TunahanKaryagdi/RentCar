@@ -15,6 +15,12 @@ namespace Business.Constants
         public static string DataListed = " Data Listed";
         public static string CarDeleted = " Car Deleted";
         public static string CarUpdated = " Car Updated";
+        public static string BrandAdded = "Brand Added";
+        public static string BrandDeleted = "Brand Deleted";
+        public static string BrandUpdated = "Brand Updated";
+        public static string ColorAdded = "Color Added";
+        public static string ColorDeleted = "Color Deleted";
+        public static string ColorUpdated = "Color Updated";
 
 
 
