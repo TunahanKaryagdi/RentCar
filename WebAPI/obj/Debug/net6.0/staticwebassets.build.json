@@ -1,11 +1,88 @@
 {
   "Version": 1,
-  "Hash": "7/8N/7vR8Gil4oF52j1JyaDaDh/w/bwrwTANJiMV94U=",
+  "Hash": "IHfBj0eXJccdcIMPtsHyO8kln8FD1kh1mNCiT34OUtA=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI\\wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\Uploads\\Images\\1c018d4c-e8df-48ee-8ac7-6ae1bcd73c94.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/Images/1c018d4c-e8df-48ee-8ac7-6ae1bcd73c94.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\1c018d4c-e8df-48ee-8ac7-6ae1bcd73c94.png"
+    },
+    {
+      "Identity": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\Uploads\\Images\\1dbae0ec-1443-49e8-82f7-d8178bbe9665.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/Images/1dbae0ec-1443-49e8-82f7-d8178bbe9665.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\1dbae0ec-1443-49e8-82f7-d8178bbe9665.png"
+    },
+    {
+      "Identity": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\Uploads\\Images\\5edc711d-bbdd-4dff-834b-990b09cfa441.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/Images/5edc711d-bbdd-4dff-834b-990b09cfa441.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\5edc711d-bbdd-4dff-834b-990b09cfa441.png"
+    },
+    {
+      "Identity": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\Uploads\\Images\\e74fa8c6-e640-46f5-b249-4184566f342c.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/Images/e74fa8c6-e640-46f5-b249-4184566f342c.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\e74fa8c6-e640-46f5-b249-4184566f342c.png"
+    }
+  ]
 }

@@ -21,12 +21,24 @@ namespace WebAPI.Controllers
 
 
         [HttpPost("add")]
-        public IResult Add([FromHeader] IFormFile file, [FromForm] int carId)
+        public IResult Add(IFormFile file, [FromForm] int carId)
         {
 
-            CarImage carImage = new CarImage() { CarId = carId};
+            var carImage = new CarImage() { CarId = carId };
             var result = _carImageService.Add(file, carImage, carId);
-            return result;
+
+            if (result.Success)
+            {
+                return result;
+            }
+            return  new ErrorResult();
+        }
+
+
+        [HttpGet("getall")]
+        public IDataResult<List<CarImage>> GetAll()
+        {
+           return _carImageService.GetAll();
 
         }
     }

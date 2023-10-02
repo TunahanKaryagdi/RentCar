@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Core.Utilities.Business;
 using Core.Utilities.Helpers.FileHelper;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -23,8 +24,13 @@ namespace Business.Concrete
 
         public IResult Add(IFormFile file, CarImage carImage ,int carId)
         {
-            IResult result = CheckIfCarImageLimit(carImage.CarId);
+            /*IResult result = CheckIfCarImageLimit(carImage.CarId);
             if (result != null)
+            {
+                return result;
+            }*/
+            var result = BusinessRules.Run(CheckIfCarImageLimit(carId));
+            if (!result.Success)
             {
                 return result;
             }
@@ -49,6 +55,11 @@ namespace Business.Concrete
             return new SuccessResult();
         }
 
+        public IDataResult<List<CarImage>> GetAll()
+        {
+            return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(), Messages.DataListed);
+        }
+
         public IResult CheckIfCarImageLimit(int carId)
         {
             int imageCount = _carImageDal.GetAll(i => i.CarId == carId).Count;
@@ -58,5 +69,7 @@ namespace Business.Concrete
             }
             return new SuccessResult();
         }
+
+
     }
 }

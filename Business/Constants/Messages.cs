@@ -12,6 +12,11 @@ namespace Business.Constants
         public static string added = "Added";
         public static string ImageAdded = " Image added";
         public static string NoLimit = " No limit";
+        public static string DataListed = " Data Listed";
+        public static string CarDeleted = " Car Deleted";
+        public static string CarUpdated = " Car Updated";
+
+
 
     }
 }
