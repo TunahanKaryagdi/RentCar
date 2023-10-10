@@ -70,6 +70,17 @@ namespace Business.Concrete
             return new SuccessResult();
         }
 
+        public IDataResult<List<CarImage>> GetByCarId(int carId)
+        {
+            var result = _carImageDal.GetAll(i=> i.CarId == carId).Count;
 
+            if (result>0)
+            {
+                return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(p => p.CarId == carId),Messages.ImagesListed);
+            }
+            List<CarImage> carimage = new List<CarImage>();
+            carimage.Add(new CarImage { CarId = carId, ImagePath = @"\Images\default.png" });
+            return new SuccessDataResult<List<CarImage>>(carimage,Messages.CarHasNoImage);
+        }
     }
 }

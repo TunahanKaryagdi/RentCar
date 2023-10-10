@@ -37,7 +37,7 @@ namespace WebAPI.Controllers
 
 
         [HttpPost("add")]
-        public IActionResult Add(IFormFile file, [FromForm] string body)
+        public IActionResult Add( IFormFile? file,  string body)
         {
             var addCarDto = JsonConvert.DeserializeObject<AddCarDto>(body);
             addCarDto.file = file;

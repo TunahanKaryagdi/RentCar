@@ -15,7 +15,7 @@ namespace Entity.DTOs
         public string ModelYear { get; set; }
         public decimal DailyPrice { get; set; }
         public string Description { get; set; }
-        public IFormFile file { get; set; }
+        public IFormFile? file { get; set; }
 
 
 

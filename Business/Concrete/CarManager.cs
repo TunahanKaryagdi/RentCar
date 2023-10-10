@@ -39,9 +39,13 @@ namespace Business.Concrete
                 ModelYear = car.ModelYear
             };
             _carDal.Add(carToAdd);
+            if (car.file != null)
+            {
+                CarImage carImage = new CarImage();
+                _carImageService.Add(car.file, carImage, carToAdd.Id);
+            }
 
-            CarImage carImage = new CarImage();
-            _carImageService.Add(car.file, carImage, carToAdd.Id);
+
             return new SuccessResult(Messages.okey);
 
         }

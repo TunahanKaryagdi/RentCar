@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\Uploads\\Images\\1c018d4c-e8df-48ee-8ac7-6ae1bcd73c94.png",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\1c018d4c-e8df-48ee-8ac7-6ae1bcd73c94.png"
+    },
+    {
+      "Id": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\Uploads\\Images\\1dbae0ec-1443-49e8-82f7-d8178bbe9665.png",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\1dbae0ec-1443-49e8-82f7-d8178bbe9665.png"
+    },
+    {
+      "Id": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\Uploads\\Images\\5edc711d-bbdd-4dff-834b-990b09cfa441.png",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\5edc711d-bbdd-4dff-834b-990b09cfa441.png"
+    },
+    {
+      "Id": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\Uploads\\Images\\e74fa8c6-e640-46f5-b249-4184566f342c.png",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\e74fa8c6-e640-46f5-b249-4184566f342c.png"
+    },
+    {
+      "Id": "C:\\Users\\Tunahan\\source\\repos\\RentCar\\WebAPI\\wwwroot\\Uploads\\Images\\fed3789d-5f61-4029-93e7-dbdc2997d789.png",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\fed3789d-5f61-4029-93e7-dbdc2997d789.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebAPI.props",
+      "PackagePath": "build\\WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebAPI.props",
+      "PackagePath": "buildTransitive\\WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

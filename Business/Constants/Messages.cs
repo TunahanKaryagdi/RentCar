@@ -21,6 +21,10 @@ namespace Business.Constants
         public static string ColorAdded = "Color Added";
         public static string ColorDeleted = "Color Deleted";
         public static string ColorUpdated = "Color Updated";
+        public static string ImagesListed = " Images Listed";
+        public static string CarHasNoImage = " Car Has No Image";
+
+
 
 
 

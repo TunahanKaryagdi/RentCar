@@ -2,6 +2,7 @@
 using Core.Utilities.Results;
 using Entity.Concrete;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 using IResult = Core.Utilities.Results.IResult;
 
 namespace WebAPI.Controllers
@@ -21,7 +22,7 @@ namespace WebAPI.Controllers
 
 
         [HttpPost("add")]
-        public IResult Add(IFormFile file, [FromForm] int carId)
+        public IActionResult Add(IFormFile file, [FromForm] int carId)
         {
 
             var carImage = new CarImage() { CarId = carId };
@@ -29,16 +30,28 @@ namespace WebAPI.Controllers
 
             if (result.Success)
             {
-                return result;
+                return Ok(result);
             }
-            return  new ErrorResult();
+            return  BadRequest(result);
         }
 
 
         [HttpGet("getall")]
-        public IDataResult<List<CarImage>> GetAll()
+        public IActionResult GetAll()
         {
-           return _carImageService.GetAll();
+           return Ok(_carImageService.GetAll());
+
+        }
+
+        [HttpGet("getimagesbycarid")]
+        public IActionResult GetImagesByCarId(int carId)
+        {
+            var result = _carImageService.GetByCarId(carId);
+            if (result.Success)
+            {
+                return Ok(result);   
+            }
+            return BadRequest(result);
 
         }
     }
