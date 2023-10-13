@@ -77,3 +77,8 @@ C:\Users\Tunahan\source\repos\RentCar\WebAPI\obj\Debug\net6.0\staticwebassets\ms
 C:\Users\Tunahan\source\repos\RentCar\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
 C:\Users\Tunahan\source\repos\RentCar\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
 C:\Users\Tunahan\source\repos\RentCar\WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Tunahan\source\repos\RentCar\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Tunahan\source\repos\RentCar\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Tunahan\source\repos\RentCar\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Tunahan\source\repos\RentCar\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Tunahan\source\repos\RentCar\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

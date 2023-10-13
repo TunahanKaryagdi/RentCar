@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Concrete
 {
-    public class User  :IEntity
+    public class User : IEntity
     {
         public int Id { get; set; }
         [Column("First_Name")]
@@ -16,6 +16,10 @@ namespace Entity.Concrete
         [Column("Last_Name")]
         public string LastName { get; set; }
         public string Email { get; set; }
-        public string Password { get; set; }
+        [Column("Password_Hash")]
+        public byte[] PasswordHash { get; set; }
+        [Column("Password_Salt")]
+        public byte[] PasswordSalt { get; set; }
+        public bool Status { get; set; }
     }
 }

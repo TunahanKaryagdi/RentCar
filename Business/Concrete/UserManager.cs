@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Core.Entity.Concrete;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entity.Concrete;
@@ -13,27 +14,32 @@ namespace Business.Concrete
 {
     public class UserManager : IUserService
     {
-
         IUserDal _userDal;
 
-        public UserManager(IUserDal userDal)
+        IDataResult<List<OperationClaim>> IUserService.GetClaims(User user)
         {
-            _userDal = userDal;
+            var result = _userDal.GetClaims(user);
+            if (result !=null)
+            {
+                return new SuccessDataResult<List<OperationClaim>>(result);
+            }
+            return new ErrorDataResult<List<OperationClaim>>(Messages.ClaimsCannotListed);
         }
 
-        public IResult Add(User user)
+        IResult IUserService.Add(User user)
         {
             _userDal.Add(user);
-            return new SuccessResult(Messages.added);
+            return new SuccessResult();
         }
 
-
-
-        public IDataResult<List<User>> GetAll()
+        IDataResult<User> IUserService.GetByMail(string email)
         {
-            return new SuccessDataResult<List<User>>(_userDal.GetAll(),Messages.okey);
+            var result = _userDal.Get(u => u.Email == email);
+            if (result != null)
+            {
+                return new SuccessDataResult<User>(result);
+            }
+            return new ErrorDataResult<User>(Messages.UserCannotFindByEmail);
         }
-
-
     }
 }

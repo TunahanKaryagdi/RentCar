@@ -23,8 +23,15 @@ namespace Business.Constants
         public static string ColorUpdated = "Color Updated";
         public static string ImagesListed = " Images Listed";
         public static string CarHasNoImage = " Car Has No Image";
-
-
+        public static string AuthorizationDenied = "Authorization Denied";
+        public static string UserRegistered = "User Registered";
+        public static string PasswordError = "Password Error";
+        public static string UserNotFound = "User Not Found";
+        public static string UserAlreadyExists = "User Already Exists";
+        public static string AccessTokenCreated = "Access Token Created";
+        public static string ClaimsCannotListed = "Claims Cannot Listed";
+        public static string UserCannotFindByEmail = "User Cannot Find By Email";
+        public static string SuccessfulLogin = "Successful Login";
 
 
 

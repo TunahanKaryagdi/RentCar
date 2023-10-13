@@ -15,10 +15,25 @@ namespace WebAPI.Controllers
             _userService = userService;
         }   
 
-        [HttpGet("getall")]
-        public IDataResult<List<User>> GetAll()
+        [HttpGet("getclaimsbyuser")]
+        public IActionResult GetClaimsByUser(User user)
         {
-            return _userService.GetAll();
+            var result = _userService.GetClaims(user);
+            return result.Success ? Ok(result) : BadRequest(result);
+        }
+
+        [HttpPost("add")]
+        public IActionResult Add(User user)
+        {
+            var result = _userService.Add(user);
+            return result.Success ? Ok(result) : BadRequest(result);
+        }
+
+        [HttpGet("getuserbyemail")]
+        public IActionResult GetUserByEmail(string email)
+        {
+            var result = _userService.GetByMail(email);
+            return result.Success ? Ok(result) : BadRequest(result);
         }
     }
 }
